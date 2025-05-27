@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-
-body {
+body{
     font-family: 'inter', sans-serif;
     margin: 0;
     padding: 0;
@@ -8,50 +7,26 @@ body {
     color: #333;
     line-height: 1.6;
 }
-
-header {
+header{
     background-color: #007bff;
     padding: 20px;
     text-align: center;
     color: white;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-
-header h1 {
+header h1{
     margin: 0;
     font-size: 2rem;
 }
-
-nav ul {
+nav ul{
     list-style-type: none;
     padding: 0;
     margin-top: 10px;
     display: flex;
     justify-content: center;
 }
-
-nav ul li a {
-    color: whinter;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 1.1rem;
-    transition: color 0.3s;
-}
-
-nav ul li a:hover {
-    color: white;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 1.1rem;
-    transition: color 0.3s;
-}
-
-nav ul li a:hover{
-    color: #f0f0f0;
-}
-main{
-    padding: 20xp;
-    margin: 20xp auto;
+nav ul li{
+    margin: 0 15px;
 }
 
 
@@ -69,111 +44,16 @@ main{
 
 
 
-section {
-    section h2 {
-        font-size: 1.8rem;
-        color: #007bff;
-        margin-bottom: 15px;
-        border-bottom: 2px solid #007bff;
-        padding-bottom: 5px;
-    }
-}
 
-.card {
-    background-color: #e9ecef;
-    padding: 15xp;
-    border-radius: 8xp;
-    margin-bottom: 10xp;
-    box-shadow: 0 1xp 2xp rgba(0, 0, 0, 0.05);
-}
 
-.cardh3 {
-    font-size: 1.2rem;
-    margin-bottom: 10xp;
+
+
+
+
+section h2{
+    font-size: 1.8rem;
     color: #007bff;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
 }
-
-.form-container {
-    background-color: #e9ecef;
-    padding: 20xp;
-    border-radius: 8xp;
-    margin-top: 20xp;
-}
-
-.form-container h2 {
-    color: #007bff;
-    margin-bottom: 20xp;
-}
-
-form label {
-    display: block;
-    margin-top: 10xp;
-    font-weight: bold;
-    color: #555;
-}
-
-form input,
-form textarea,
-form button {
-    width: 100%;
-    padding: 10xp;
-    margin-top: 5xp;
-    border: 1xp solid #ddd;
-    border-radius: 5xp;
-    box-sizing: border-box;
-}
-
-form button {
-    background-color: #007bff;
-    color: white;
-    border: none;
-    cursor: pointer;
-    margin-top: 20xp;
-    font-weight: 600;
-    transition: backgroud-color 0.3s ease;
-}
-
-form button:hover {
-    background-color: #0056b3;
-}
-
-footer {
-    background-color: #343a40;
-    color: white;
-    text-align: center;
-    padding: 20xp;
-    margin-top: 30xp;
-    border-top: 1xp solid #495057;
-}
-
-@media(max-width: 768xp) {
-    header h1 {
-        font-size: 1.8rem;
-    }
-
-    nav ul li {
-        margin: 0 10xp;
-    }
-
-    main {
-        padding: 15xp;}
-    }
-        section h2 {
-            font-size: 1.6rem;
- }
- @media(max-width:480xp){
-    nav ul{
-        flex-direction: 10xp;
-    }
-    main{
-        margin: 10xp;
-    }
-    form input, form textarea{
-        padding: 8xp;
-    }
-    form button{
-        padding: 10xp;
-        font-size: 0.9rem;
-    }
- }
-    
